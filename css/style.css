@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--bs-body-font-family);
+}
+:root{
+    --main-color:#0078ff;
+    --second-color:#4e4e4e;
+}
+header{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+header h1{
+    font-size: 70px;
+}
+header h2{
+    font-size: 40px;
+}
+.logo{
+    font-size: 30px;
+}
+header h2::after{
+    content: "|";
+    /* content: "I'm Simone Olivia.|"; */
+    animation-name: typing;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing{
+    0%{content: "|";}
+    1%{content: "D|";}
+    2%{content: "De|";}
+    3%{content: "Des|";}
+    4%{content: "Desi|";}
+    5%{content: "Desig|";}
+    6%{content: "Design|";}
+    7%{content: "Designe|";}
+    8%{content: "Designer|";}
+    9%{content: "Designer";}
+    10%{content: "Designer";}
+    11%{content: "Designer|";}
+    12%{content: "Designer";}
+    13%{content: "Designer";}
+    14%{content: "Designer|";}
+    15%{content: "Designe|";}
+    16%{content: "Design|";}
+    17%{content: "Desig|";}
+    18%{content: "Desi|";}
+    19%{content: "Des|";}
+    20%{content: "De|";}
+    21%{content: "D|";}
+    22%{content: "|";}
+
+    23%{content: "D|";}
+    24%{content: "De|";}
+    25%{content: "Dev|";}
+    26%{content: "Deve|";}
+    27%{content: "Devel|";}
+    28%{content: "Develo|";}
+    29%{content: "Develop|";}
+    30%{content: "Develope|";}
+    31%{content: "Developer|";}
+    32%{content: "Developer";}
+    33%{content: "Developer";}
+    34%{content: "Developer|";}
+    35%{content: "Developer";}
+    36%{content: "Developer";}
+    37%{content: "Developer|";}
+    38%{content: "Develope|";}
+    39%{content: "Develop|";}
+    40%{content: "Develo|";}
+    41%{content: "Devel|";}
+    42%{content: "Deve|";}
+    43%{content: "Dev|";}
+    44%{content: "De|";}
+    45%{content: "D|";}
+    46%{content: "|";}
+   
+    46%{content: "F|";}
+    47%{content: "Fr|";}
+    48%{content: "Fre|";}
+    49%{content: "Free|";}
+    50%{content: "Freel|";}
+    51%{content: "Freela|";}
+    52%{content: "Freelan|";}
+    53%{content: "Freelane|";}
+    54%{content: "Freelaner|";}
+    55%{content: "Freelaner";}
+    56%{content: "Freelaner";}
+    57%{content: "Freelaner|";}
+    58%{content: "Freelaner";}
+    59%{content: "Freelaner";}
+    60%{content: "Freelaner|";}
+    61%{content: "Freelane|";}
+    62%{content: "Freelan|";}
+    63%{content: "Freela|";}
+    64%{content: "Freel|";}
+    65%{content: "Free|";}
+    66%{content: "Fre|";}
+    67%{content: "Fr|";}
+    68%{content: "F|";}
+    69%{content: "|";}
+
+    70%{content: "P|";}
+    71%{content: "Ph|";}
+    72%{content: "Pho|";}
+    73%{content: "Phot|";}
+    74%{content: "Photo|";}
+    75%{content: "Photog|";}
+    76%{content: "Photogr|";}
+    77%{content: "Photogra|";}
+    78%{content: "Photograp|";}
+    79%{content: "Photograph|";}
+    80%{content: "Photographe|";}
+    81%{content: "Photographer|";}
+    82%{content: "Photographer";}
+    83%{content: "Photographer";}
+    84%{content: "Photographer|";}
+    85%{content: "Photographer";}
+    86%{content: "Photographer";}
+    87%{content: "Photographer|";}
+    88%{content: "Photographe|";}
+    89%{content: "Photograph|";}
+    90%{content: "Photograp|";}
+    91%{content: "Photogra|";}
+    92%{content: "Photogr|";}
+    93%{content: "Photog|";}
+    94%{content: "Photo|";}
+    95%{content: "Phot|";}
+    96%{content: "Pho|";}
+    97%{content: "Ph|";}
+    98%{content: "P|";}
+    99%{content: "|";}
+    100%{content: "|";}
+}
+
+.nava{
+    position: relative;
+}
+.nava::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    top: 100%;
+    left: 0;
+    width: 0;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out 0s;
+}
+.nava:hover:before {
+    width: 80%;
+}
+
+.hedbg{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about2{
+    box-shadow: 0px 1px 5px 0.5px rgb(214, 212, 212);
+}
+p{
+    color: var(--second-color);  
+}
+.about-me .sp2{
+    color: var(--second-color);
+}
+.sp1{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 45px;
+}
+.sk{
+    width: 100%;
+}
+.skh1{
+    font-size: 19px;
+}
+.skttl{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--second-color);
+}
+.perc1{
+    width: 100%;
+    height: 2.5%;
+    background-color: #cde1f8;
+}
+.perc2{
+    height: 100%;
+    background-color: var(--main-color);
+}
+.percenum1{
+    width: 85%;
+}
+.percenum2{
+    width: 75%;
+}
+.percenum3{
+    width: 50%;
+}
+.percenum4{
+    width: 90%;
+}
+
+.me h2::after{
+    content: "";
+    position: absolute;
+    width: 17%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--main-color);
+}
+.me p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.serv h1::after{
+    content: "";
+    position: absolute;
+    width: 2.5%;
+    height: 5px;
+    bottom: 0;
+    left: 49%;
+    background-color: var(--main-color);
+}
+.serv h1{
+    font-size: 45px;
+}
+i{
+    /* color: orange; */
+    font-size: 50px;
+    position: relative;
+    top: 30%;
+}
+.icon{
+    width: 5rem;
+    height: 5rem;
+    background-color: transparent;
+    border: solid var(--main-color);
+    border-width: 10px;
+    transition: 0.5s;
+}
+.servcont:hover .icon{
+    color: #fff;
+    background-color: var(--main-color);
+    border: solid #c1d7f1;
+    border-width: 10px;
+}
+
+.count{
+    background-image: url(../images/counters-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 60vh;
+}
+.seclayer{
+    background-color: rgba(0, 120, 255,0.7);
+}
+
+.cnticon{
+   background-color: transparent; 
+   width: 5rem;
+   height: 5rem;
+   border: solid rgba(255, 255, 255,0.7);
+   border-width: 10px;
+}
+.bi{
+    font-size: 2rem;
+}
+.count h3,h6{
+    font-weight: 400;
+}
+.cnt2{
+    top: 25%;
+}
+
+.portfl h4{
+    font-size: 20px;
+}
+.portfl h4::before{
+    content: "Web Design";
+    color: var(--main-color);
+    font-size: 12px;
+    position: absolute;
+    top: 100%;
+    padding-top: 3%;
+}
+.portfl h4::after{
+    content: " / 18 Sep. 2018";
+    color: gray;
+    font-size: 12px;
+    position: absolute;
+    top: 100%;
+    left:70px;
+    padding-top: 3%;
+}
+
+.portfl a{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: white;
+    border-radius: 50%;
+    border: solid var(--main-color);
+    border-width: 3.5px;
+}
+.portfl a::after{
+    content: "";
+    height: 7%;
+    width: 60%;
+    background-color: var(--main-color);
+    position: absolute;
+    top: 46.5%;
+    left: 20%;
+    z-index: 999;
+    border-radius: 20px;
+}
+.portfl a::before{
+    content: "";
+    height: 60%;
+    width: 7%;
+    background-color: var(--main-color);
+    position: absolute;
+    top: 20%;
+    left: 46.5%;
+    z-index: 999;
+    border-radius: 20px;
+}
+.portfl img:hover{
+    transform: scale(1.3,1.3);
+}
+.portimg .imgcontain{
+    overflow: hidden; 
+}
+.portfl img{
+    transition: 0.6s ease-out;
+}
+.client-img{
+    width: 150px;
+    border-radius: 50%;
+}
+.testimonial{
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.testimonial p{
+    /* font-size: 22px; */
+    color: #fff;
+}
+.carousel-indicators [data-bs-target]{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 5px;
+}
+a{
+text-decoration: none;
+transition: 0.5s;
+}
+.card-body a{
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 500;
+}
+.card-body a:hover{
+    color: var(--main-color);
+}
+.fotspan{
+    transition: 0.5s;
+}
+.fotspan:hover{
+    color: var(--main-color);
+}
+.card-body p{
+    /* margin-top: 3%; */
+}
+.card-footer img{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.card-footer{
+    font-size: 17px;
+}
+.foticn{
+    font-size: 17px;
+    position: relative;
+    left: 40%;
+}
+.foticn::after{
+    content: "10 min";
+    position: relative;
+    left: 5px;
+}
+.minsqr{
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 3px;
+    position: relative;
+    left: 40%;
+    bottom: 3%;
+    /* transform: translatex(50%); */
+}
+.min1{
+    width: 20%;
+    padding: 5px 7px;
+}
+.min2{
+    width: 22%;
+    padding: 5px 6px;
+}
+
+.get-touch{
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form input,textarea{
+    padding-top: 1.5%;
+    padding-left: 1%;
+    margin-bottom: 3%;
+    border: solid rgb(199, 196, 196) 1px;
+    font-size: 15px;
+}
+
+.fm{
+    padding-bottom: 10%;
+}
+.get-touch button{
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    background-color: var(--main-color);
+    font-size: 18px;
+    left: 30%;
+    transition: 0.5s;
+}
+.get-touch button:hover{
+    background-color: #479cfd;
+    border: solid #c1d7f1;
+    border-width: 5px;
+}
+.get-touch h2:before {
+    content: "";
+    position: absolute;
+    height: 2.5px;
+    background-color: var(--main-color);
+    width: 100px;
+    bottom: -12px;
+}
+.list-icon{
+    list-style-type: none;
+    font-size: 17px;
+    padding-left: 0;
+    line-height: 30px;
+    color: rgb(82, 80, 80);
+}
+.list-icon span{
+    font-size: 17px;
+    padding-right: 2%;
+    color: var(--main-color);
+}
+.social-icon{
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: solid var(--main-color);
+    border-width: 4px;
+    transition: 0.6s;
+}
+.social-icon i{
+    font-size: 120%;
+}
+.social-icon:hover{
+    background-color: var(--main-color);
+    color: #fff;
+    border: solid #c1d7f1;
+    border-width: 3.5px;
+}
+.end{
+    background: #0062d3;
+    box-shadow: 2px 1px 10px 0.5px #004faa inset;
+}
+.back-to-top{
+    width: 3%;
+    position: relative;
+    left: 96%;
+}
+.back-to-top i{
+ background-color: var(--main-color);
+ color: #fff;
+ border-radius: 50%;
+ border: solid 5px var(--main-color);
+ transition: 0.5s;
+}
+.back-to-top i:hover{
+    background-color: #479cfd;
+    border: solid 5px #479cfd;
+}
